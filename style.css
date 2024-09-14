@@ -1,0 +1,93 @@
+/* Arquivo: style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.photo-container {
+    margin-bottom: 20px;
+}
+
+.photo-container img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#timeTogether h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#time {
+    font-size: 1.5rem;
+}
+
+p {
+    font-weight: bold;
+}
+/* Estilos para a galeria */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+/* Estilos para a linha do tempo */
+.timeline {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.timeline h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.timeline ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.timeline li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}

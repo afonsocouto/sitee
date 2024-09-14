@@ -1,0 +1,58 @@
+/* Arquivo: style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+    background-attachment: fixed; /* Para garantir que o fundo ocupe toda a tela */
+    background-size: cover; /* Faz o fundo cobrir toda a tela */
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.photo-container {
+    margin-bottom: 20px;
+}
+
+.photo-container img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#timeTogether h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#time {
+    font-size: 1.5rem;
+}
+
+p {
+    font-weight: bold;
+}
+/* Arquivo: style.css */
+.photo-container img {
+    width: 100%; /* Deixa a imagem responsiva */
+    max-width: 400px; /* Define um tamanho máximo para a imagem */
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+}
